@@ -32,7 +32,8 @@ public class Binary implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 
 		if (e.getSource().equals(button)) {
-			convert(answer.getText());
+			
+			answer.setText(convert(answer.getText()));
 		}
 
 	}
